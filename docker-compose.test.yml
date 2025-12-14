@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  api-gateway-test:
+    build: ./api-gateway
+    command: pytest --cov=app --cov-report=term-missing -v
+    environment:
+      - ENVIRONMENT=test
