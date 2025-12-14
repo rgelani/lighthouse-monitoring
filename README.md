@@ -323,7 +323,7 @@ MIT License - See [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Developer:** Your Name  
+**Developer:** Ruchita Bhalala
 **GitHub:** [@rgelani](https://github.com/rgelani)  
 **LinkedIn:** [linkedin.com/in/ruchitagelani](https://linkedin.com/in/ruchitagelani)
 
