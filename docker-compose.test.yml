@@ -6,3 +6,10 @@ services:
     command: pytest --cov=app --cov-report=term-missing -v
     environment:
       - ENVIRONMENT=test
+
+  metrics-service-test:
+    build: ./metrics-service
+    command: pytest --cov=app --cov-report=term-missing -v
+    environment:
+      - ENVIRONMENT=test
+      - DATABASE_URL=sqlite:///:memory:
